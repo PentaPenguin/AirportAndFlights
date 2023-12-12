@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LongitudeRange</fullName>
+    <active>true</active>
+    <description>The valid range for longitude values is from +180 to -180 degrees.</description>
+    <errorConditionFormula>OR(
+    AIR_NUM_Longitude__c &gt; 180,
+    AIR_NUM_Longitude__c &lt; -180
+)</errorConditionFormula>
+    <errorDisplayField>AIR_NUM_Longitude__c</errorDisplayField>
+    <errorMessage>The valid range for longitude values is from +180 to -180 degrees.</errorMessage>
+</ValidationRule>
