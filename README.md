@@ -1,6 +1,8 @@
 # AirportAndFlights Salesforce DX Project
 
-Deploy this project using SFDX and the provided manifest (manifest/package.xml).
+Deploy this project using SFDX and the provided manifest (manifest/package.xml) by setting the target org in the project you downloaded and running the following SF command:
+
+> sf project deploy start --manifest manifest/package.xml
 
 ## Test Airport data
 
